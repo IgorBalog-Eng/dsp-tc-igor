@@ -23,7 +23,7 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        cache: maven
+        cache: 'maven'
 
     - name: Set release version in pom.xml
       shell: bash -l {0}
