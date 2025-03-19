@@ -3,7 +3,8 @@ All notable changes to this project will be documented in this file.
 
 ## [project.version.placeholder] - [timestamp]
 
-## [] - [timestamp]
+## [0.1.4-SNAPSHOT] - [19-03-2025]
+
 ## [0.1.1] - 14-03-2025
 
 ### Changed
@@ -201,7 +202,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
  - Changed proxy requests to be POST instead GET (because of mandatory body)
- - GenericApiResponse.timestamp LocalDateTime to ZonedDateTime
+ - GenericApiResponse.19-03-2025 LocalDateTime to ZonedDateTime
  - Updated postman collection
  
 ## [0.1.1] - 12-11-2024
@@ -224,7 +225,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 
  - DataTransferFormat.HttpData-PULL (was before HTTP_PULL)
- - GenericApiResponse.timestamp added @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS")
+ - GenericApiResponse.19-03-2025 added @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS")
  - Serializers added InstantSerializer, InstantDeserializer and JavaTimeModule
  
 ## [0.1.1] - 07-11-2024
