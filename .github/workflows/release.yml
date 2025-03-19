@@ -61,10 +61,10 @@ jobs:
       uses: thomaseizinger/create-pull-request@1.3.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        head: master
+        head: main
         base: develop
         title: Released master into develop
         body: |
           Hi!
-          This PR was created in response workflow running.
-          I've updated the version name and code commit: ${{ steps.make-commit.outputs.commit }}.
+          This PR was created to merge changes from main into develop branch.
+          Please review the changes and merge if appropriate.
